@@ -1,0 +1,18 @@
+{
+  "name": "godslayernodejswebsite",
+  "version": "1.0.0",
+  "description": "A website that will function as a repository for my personal passion project, The Godslayer Saga.",
+  "license": "ISC",
+  "author": "André G. C. Baptista",
+  "type": "commonjs",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.20.0"
+  }
+}
