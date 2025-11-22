@@ -9,7 +9,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 // MongoDB Atlas database connection address
-const dbURI = 'mongodb+srv://agcbaptista:RoTrZ1TAVuogUmiP@coronet.z1d6kry.mongodb.net/blogsWebsite?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://demo_user:Ht99OgajqTuyDYKL@coronet.z1d6kry.mongodb.net/blogsWebsite?retryWrites=true&w=majority';
 // CONNECTS to the MongoDB Atlas database, and only after the connection has been established
 // does it start LISTENING to requests (through the port 3000), otherwise the webpage would not be ready before use
 // CATCHES any error and logs it onto the console
